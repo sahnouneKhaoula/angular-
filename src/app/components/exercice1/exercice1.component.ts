@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Action } from 'src/app/model/actions';
+import { Action } from '../../model/actions';
 import { Observable,interval } from 'rxjs';
 
 @Component({
