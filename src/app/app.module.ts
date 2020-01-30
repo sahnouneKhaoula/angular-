@@ -28,6 +28,7 @@ import { Exemple8Component } from './components/exemple8/exemple8.component';
     HeaderComponent,
     Exercice1Component,
     Exercice2Component,
+  // Exercice3Component,
     Exemple1Component,
     Exemple2Component,
     Exemple3Component,
