@@ -1,0 +1,19 @@
+<app-header [title]="'Exercice 1'"></app-header>
+<div class="clock">
+  <div>
+    <div class="info date">{{time | date:'HH:mm:ss' }} {{ time | date:'a'}}</div>
+  </div>
+  <div class="dot"></div>
+  <div>
+    <div class="hour-hand" [ngStyle]="hourHand"></div>
+    <div class="minute-hand" [ngStyle]="minuteHand"></div>
+    <div class="second-hand" [ngStyle]="secondHand"></div>
+  </div>
+  <div>
+    <span class="h3">3</span>
+    <span class="h6">6</span>
+    <span class="h9">9</span>
+    <span class="h12">12</span>
+  </div>
+  <div class="diallines"></div>
+</div>

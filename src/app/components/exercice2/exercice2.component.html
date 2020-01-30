@@ -1,0 +1,16 @@
+<app-header [title]="'Exercice 2'"></app-header>
+<img class="exerice" src="/assets/thinking.jpg" />
+<div>
+    count: {{ count }} <br><br>
+    points: {{ points }} <br><br>
+    random number: ?? <br><br>
+    number to compare with random: {{ compared_number }}  <br><br>
+    
+    <div *ngIf="message">
+        {{ message }}
+    </div>
+
+    <button  (click)="action('up')"> UP </button>
+    <button  (click)="action('down')"> DOWN </button>
+    <button  (click)="action('restart')"> RESTART </button>
+</div>
