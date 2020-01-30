@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { Exercice1Component } from './components/exercice1/exercice1.component';
 import { Exercice2Component } from './components/exercice2/exercice2.component';
+//import { Exercice3Component } from './components/exercice3/exercice2.component';
 import { Exemple1Component } from './components/exemple1/exemple1.component';
 import { Exemple2Component } from './components/exemple2/exemple2.component';
 import { Exemple3Component } from './components/exemple3/exemple3.component';
@@ -28,6 +29,7 @@ import { Exemple8Component } from './components/exemple8/exemple8.component';
     HeaderComponent,
     Exercice1Component,
     Exercice2Component,
+  //  Exercice3Component,
     Exemple1Component,
     Exemple2Component,
     Exemple3Component,
