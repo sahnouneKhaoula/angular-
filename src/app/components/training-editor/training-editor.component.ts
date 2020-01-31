@@ -9,7 +9,8 @@ import { TrainingService } from '../../services/training/training.service';
 })
 export class TrainingEditorComponent implements OnInit {
 
-  evaluation : number;
+  evaluation : number
+  ;
 
   title: string;
 
