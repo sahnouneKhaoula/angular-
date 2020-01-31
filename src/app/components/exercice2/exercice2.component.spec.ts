@@ -23,3 +23,4 @@ describe('Exercice2Component', () => {
     expect(component).toBeTruthy();
   });
 });
+
